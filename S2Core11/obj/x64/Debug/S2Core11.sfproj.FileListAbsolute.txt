@@ -1,0 +1,3 @@
+C:\Users\Renan Stuchi\source\repos\S2Core11\S2Core11\obj\x64\Debug\S2Core11.sfproj.CoreCompileInputs.cache
+C:\Users\Renan Stuchi\source\repos\S2Core11_RenStuchi - Copy\S2Core11\obj\x64\Debug\S2Core11.sfproj.CoreCompileInputs.cache
+C:\Users\Renan Stuchi\source\repos\S2Core11-RenStuchi\S2Core11\obj\x64\Debug\S2Core11.sfproj.CoreCompileInputs.cache

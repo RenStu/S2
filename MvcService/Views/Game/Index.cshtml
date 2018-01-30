@@ -1,0 +1,36 @@
+﻿@using MvcService.Models
+@model IEnumerable<Game>
+
+<h1>Game</h1>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            <label for="FriendName">Friend Id</label>
+        </th>
+        <th>
+            <label for="GameName">Game Name</label>
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FriendId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Devolve", "Devolve", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { onclick = "return confirm('Are sure wants to delete');" })
+            </td>
+        </tr>
+    }
+
+</table>
